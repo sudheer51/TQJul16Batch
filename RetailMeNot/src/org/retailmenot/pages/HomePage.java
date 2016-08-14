@@ -8,6 +8,7 @@ public class HomePage {
 	WebDriver driver;
 	public HomePage(WebDriver driver)
 	{
+		//this is a keyword used in non-static context
 		this.driver = driver;
 	}
 
